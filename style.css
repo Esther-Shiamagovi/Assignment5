@@ -1,0 +1,193 @@
+#main{
+  border: solid 20px;
+  border-color: darkcyan;
+  padding: 30px;
+  background-color: beige;
+}
+
+#container{
+  background-color: slategray; 
+  display: flex; 
+  gap: 10px;
+}
+#container1{
+  background-color: white;
+  display: flex;
+  gap:650px;
+background-image: url(image/b\ img.avif);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 700px;
+min-width: 650px;
+padding: 50px;
+
+
+}
+.sec2{
+  width: 550px;
+  height: 500px;
+
+}
+
+.col h1{
+  color: chocolate;
+}
+.image{
+  width: 250px;
+  height: 250px;
+}
+  #sec1 em{
+    color: chocolate;
+  }
+  .im1{
+    border-radius: 5px;
+    background-color: beige;
+    color:black;
+    
+  }
+.im{
+  border-radius: 5px;
+  border-color: beige;
+  background-color: white;
+  color: aliceblue;
+}
+#word h1{
+  justify-content: center;
+
+
+
+}
+#word em{
+  color: chocolate;
+}
+#container3{
+  display: flex;
+  gap: 20px;
+
+}
+.se4{
+color: chocolate;
+}
+.sec6{
+  background-color: darkcyan;
+  color: black;
+}
+
+#container4{
+ display: flex;
+  gap: 350px;
+  background-color: white;
+}
+#container5{
+  border-radius: 20px;
+  width: 50px;
+  height: 0px;
+}
+#container6 em{
+  color: chocolate;
+}
+#container6 button{
+  color: black;
+  background-color: chocolate;
+  border-radius: 6px;
+
+}
+#container6{
+  background-image: url(image/backgro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  min-width: 700px;
+  min-height:650px ;
+}
+.col h1{
+  justify-content: center;
+}
+.one{
+  width: 300px;
+  height: 200px;
+}
+.two{
+  width: 300px;
+  height: 200px;
+}
+.three{
+  width: 300px;
+  height: 200px;
+}
+#container7{
+  display: flex;
+  gap: 150px;
+}
+#container8{
+  display: flex;
+}
+.color em{
+  color: chocolate;
+}
+.color button{
+  color: black;
+  background-color: darkcyan;
+  border-radius: 5px;
+}
+#container9{
+  display: flex;
+  gap: 150px;
+  border: solid 1px;
+  background-color: darkcyan;
+  border-radius: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:280px) and (max-width:1024px){
+
+  #container{
+    background-color: slateblue; 
+    display: flex; 
+    gap: 3px;
+  flex-wrap: wrap;
+
+  }
+
+  #container1{
+    background-color: white;
+    display: flex;
+    gap:6px;
+  background-image: url(image/b\ img.avif);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  min-height: 4px;
+  min-width: 3px;
+  padding: 0px;
+  
+  } 
+ 
+  .image{
+    width: 170px;
+    height: 360px;
+  }
+  #container3{
+    display: flex;
+    gap: 0%;
+    
+  }
+  #container5{
+    border-radius: 20px;
+    width: 200px;
+    gap: 3px;
+  }
+
+
+
+
+}
